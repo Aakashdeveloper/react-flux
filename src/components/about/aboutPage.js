@@ -1,3 +1,4 @@
+
 "use strict"
 var React = require('react');
  var About = React.createClass({
@@ -8,6 +9,7 @@ var React = require('react');
 				<p>
 					This application use the following technologies:
 					<ul>
+
 						<li> React</li>
 						<li> React Router </li>
 						<li> Flux </li>
@@ -21,4 +23,4 @@ var React = require('react');
  });
  
  module.exports = About;
- 
+

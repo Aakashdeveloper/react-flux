@@ -1,3 +1,4 @@
+
 "use strict";
 
 var gulp = require('gulp');
@@ -79,3 +80,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['html', 'js', 'css',  'open','images', 'watch']);
+

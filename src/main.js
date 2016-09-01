@@ -1,3 +1,4 @@
+
 $ = jQuery = require('jquery');
 //React.render(<Home />, document.getElementById('app'));
 var React = require('react');

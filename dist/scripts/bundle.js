@@ -45832,6 +45832,7 @@ module.exports = {
 };
 
 },{}],161:[function(require,module,exports){
+
 "use strict"
 var React = require('react');
  var About = React.createClass({displayName: "About",
@@ -45842,6 +45843,7 @@ var React = require('react');
 				React.createElement("p", null, 
 					"This application use the following technologies:", 
 					React.createElement("ul", null, 
+
 						React.createElement("li", null, " React"), 
 						React.createElement("li", null, " React Router "), 
 						React.createElement("li", null, " Flux "), 
@@ -45942,6 +45944,7 @@ var Home = React.createClass({displayName: "Home",
 module.exports = Home;
 
 },{"react":158}],165:[function(require,module,exports){
+
 $ = jQuery = require('jquery');
 //React.render(<Home />, document.getElementById('app'));
 var React = require('react');
