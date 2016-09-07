@@ -11,8 +11,8 @@ var React = require('react');
  				callback();
  			}
  		},
- 		willTransitionFrom: function(transition, params, query, callback){
- 			if(!confirm("are you want to read")){
+ 		willTransitionFrom: function(transition, component){
+ 			if(!confirm("Do you want to Leave")){
  				transition.about();
  			} 
  		}
