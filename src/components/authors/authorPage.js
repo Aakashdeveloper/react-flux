@@ -1,5 +1,7 @@
 "use strict"
 var React = require('react');
+var Router = require('react-router');
+var Link = Router.Link;
 var AuthorApi = require('../../api/authorApi');
 var AuthorList = require('./authorlist');
 
@@ -20,6 +22,7 @@ var AuthorList = require('./authorlist');
 	 	
 		 return (
 		 		<div>
+		 		<Link to="addAuthor" className="btn btn-default">Add author </Link>
 		 		 <AuthorList authors={this.state.authors} />
 		 		</div>
 		 	);
