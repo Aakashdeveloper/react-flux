@@ -1,7 +1,7 @@
 "use strict"
 var React = require('react');
 var AuthorForm = require('./authorForm');
-var AuthorApi = require('../..api/authorApi')
+var       = require('../../api/authorApi')
 
 var ManageAuthorPage = React.createClass({
        getInitialState: function(){
