@@ -2,19 +2,19 @@ module.exports = {
 	authors: 
 	[
 		{
-			id: 'cory-house', 
-			firstName: 'Cory', 
-			lastName: 'House'
+			id: 'aakash-handa', 
+			firstName: 'Aakash', 
+			lastName: 'Handa'
 		},	
 		{
-			id: 'scott-allen', 
-			firstName: 'Scott', 
-			lastName: 'Allen'
+			id: 'mayank-gupta', 
+			firstName: 'Mayank', 
+			lastName: 'Gupta'
 		},	
 		{
-			id: 'dan-wahlin', 
-			firstName: 'Dan', 
-			lastName: 'Wahlin'
+			id: 'swati-sharma', 
+			firstName: 'Swati', 
+			lastName: 'Sharam'
 		}
 	]
 };

@@ -4328,6 +4328,11 @@
         }
       }
     },
+    "toastr": {
+      "version": "2.1.2",
+      "from": "toastr@latest",
+      "resolved": "https://registry.npmjs.org/toastr/-/toastr-2.1.2.tgz"
+    },
     "vinyl-source-stream": {
       "version": "1.1.0",
       "from": "https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz",
