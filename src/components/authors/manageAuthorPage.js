@@ -1,12 +1,12 @@
 "use strict"
 var React = require('react');
 var AuthorForm = require('./authorForm');
-var       = require('../../api/authorApi')
+var   AuthorApi    = require('../../api/authorApi');
 
 var ManageAuthorPage = React.createClass({
        getInitialState: function(){
               return {
-                     author: {id:'', firstName:'', lastName:''}
+                     author: { id: '', firstName: '', lastName: ''}
 
               };
        },
@@ -20,10 +20,11 @@ var ManageAuthorPage = React.createClass({
        saveAuthor: function(event){
               event.preventDefault();
               AuthorApi.saveAuthor(this.state.author);
-       }
+       },
        render: function(){
               return ( 
-                      <AuthorForm author={this.state.author} onChange={this.setAuthorState} onSave={this.saveAuthor}/>
+
+                      <AuthorForm author={this.state.author} onChange={this.setAuthorState} onSave={this.saveAuthor} />
                      );
               }
 });
