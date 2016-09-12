@@ -9,6 +9,7 @@ var ManageAuthorPage = React.createClass({
        mixins: [
               Router.Navigation
        ],
+
        statics:{
          willTransitionFrom: function(transition, component){
             if(component.state.dirty && !confirm('leave without saving?')){

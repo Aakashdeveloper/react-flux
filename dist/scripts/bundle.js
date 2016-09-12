@@ -49414,6 +49414,7 @@ var ManageAuthorPage = React.createClass({displayName: "ManageAuthorPage",
        mixins: [
               Router.Navigation
        ],
+
        statics:{
          willTransitionFrom: function(transition, component){
             if(component.state.dirty && !confirm('leave without saving?')){
@@ -49526,11 +49527,14 @@ var Input = React.createClass({displayName: "Input",
        },
          render: function(){
               var wrapperClass = 'form-group';
+
               if(this.props.error && this.props.error.length >0){
+
                      wrapperClass += " " + 'has-error';
               }
               return ( 
               React.createElement("div", {className: wrapperClass}, 
+
                  
                  React.createElement("label", {htmlFor: this.props.name}, this.props.label), 
                       React.createElement("div", {className: "field"}, 
